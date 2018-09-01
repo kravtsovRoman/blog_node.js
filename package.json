@@ -23,10 +23,13 @@
   "homepage": "https://github.com/kravtsovRoman/server_node.js#readme",
   "devDependencies": {
     "eslint": "^5.5.0",
+    "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-node": "^7.0.1",
     "nodemon": "^1.18.4"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
     "express": "^4.16.3"
   }
 }

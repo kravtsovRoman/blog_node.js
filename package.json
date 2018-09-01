@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/kravtsovRoman/server_node.js/issues"
   },
-  "homepage": "https://github.com/kravtsovRoman/server_node.js#readme"
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/kravtsovRoman/server_node.js#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-plugin-node": "^7.0.1",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }

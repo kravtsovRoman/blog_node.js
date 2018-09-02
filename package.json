@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "cross-env PORT=3000 node index.js",
     "dev": "nodemon index.js"
   },
   "repository": {
@@ -29,7 +29,9 @@
   },
   "dependencies": {
     "body-parser": "^1.18.3",
+    "cross-env": "^5.2.0",
     "ejs": "^2.6.1",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "mongoose": "^4.9.0"
   }
 }
